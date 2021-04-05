@@ -1,5 +1,5 @@
 #  Instagram_clone
-   An android application just like instagram.
+   An android application just like instagram (backend created with firebase).
 
 ## Note
    This repository is still under development and in feature i will add some more features.
