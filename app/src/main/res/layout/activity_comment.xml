@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        android:background="?android:attr/windowBackground"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/commentsRecyclerView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolBar_id"
+        android:layout_above="@id/bottom_id"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userCommentImage_id"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:civ_border_width="2dp"
+            app:civ_border_overlay="true"/>
+        
+        <EditText
+            android:id="@+id/userComment_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_comment_here"
+            android:layout_toRightOf="@id/userCommentImage_id"
+            android:layout_toEndOf="@id/userCommentImage_id"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/postUserComment_id"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/postUserComment_id"
+            android:importantForAutofill="no"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:id="@+id/postUserComment_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/post"
+            android:textColor="@color/buttonBg"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

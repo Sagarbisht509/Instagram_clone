@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfileActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentInsetStart="0dp"
+            app:contentInsetEnd="0dp"
+            android:background="?android:attr/windowBackground">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/editProfileBack_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_clear"
+                    android:layout_alignParentLeft="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_profile"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/editProfileBack_id"
+                    android:layout_toEndOf="@id/editProfileBack_id"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    tools:ignore="RelativeOverlap" />
+
+                <ImageView
+                    android:id="@+id/editProfileUpdate_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_check"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    app:tint="@color/buttonBg"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editProfileImage_id"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:civ_border_width="2dp"
+            app:civ_border_overlay="true"/>
+
+        <TextView
+            android:id="@+id/editProfileChangeImage_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_profile_photo"
+            android:textColor="@color/buttonBg"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editProfileName_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:layout_marginTop="15dp"
+            app:met_floatingLabel="normal"
+            android:background="@color/buttonBg" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editProfileUsername_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:layout_marginTop="15dp"
+            app:met_floatingLabel="normal"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editProfileBio_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bio"
+            android:layout_marginTop="15dp"
+            app:met_floatingLabel="normal"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

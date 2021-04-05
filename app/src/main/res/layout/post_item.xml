@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/postUserImage_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            app:civ_border_width="2dp"
+            app:civ_border_overlay="true"/>
+
+        <TextView
+            android:id="@+id/postUsername_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/postUserImage_id"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/postUserImage_id"
+            android:layout_marginStart="10dp"
+            tools:ignore="ContentDescription,RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/more_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/postImage_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/todo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/like_id"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_like"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/comment_id"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/like_id"
+            android:src="@drawable/ic_comment"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/like_id"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/save_id"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_save"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/postLikes_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/postAuthor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp" />
+
+    <com.hendraanggrian.appcompat.widget.SocialTextView
+        android:id="@+id/cation_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/postComments_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+</LinearLayout>

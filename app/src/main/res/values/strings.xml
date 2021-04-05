@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+
+    <string name="login">Log In</string>
+    <string name="register">Create New Account</string>
+    <string name="already_account">Already have an account? Log in.</string>
+    <string name="no_account">Dont have an account? Sign up.</string>
+    <string name="next">Next</string>
+    <string name="Continue">Continue</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="from_facebook">From Facebook</string>
+    <string name="write_comment_here">Write comment here</string>
+    <string name="post">Post</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="bio">Bio</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_post">New Post</string>
+    <string name="write_a_caption">Write a caption…</string>
+    <string name="re_password">Confirm password</string>
+    <string name="activity">Activity</string>
+    <string name="posts">Posts</string>
+    <string name="saved">Saved</string>
+    <string name="search">Search</string>
+    <string name="follow">Follow</string>
+    <string name="todo">TODO</string>
+
+</resources>
