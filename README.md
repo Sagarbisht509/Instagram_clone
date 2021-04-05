@@ -4,6 +4,8 @@ An android application just like instagram.
 ## Note
 This repository is still under development and in feature i will add some more features.
 
+## Show some :heart: and star the repo to support the project.
+
 ## Features
 
 * Custon posts feed based on whome you follow.
