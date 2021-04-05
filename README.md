@@ -2,7 +2,7 @@
    An android application just like instagram (backend created with firebase).
 
 ## Note
-   This repository is still under development and in feature i will add some more features.
+   This repository is still under development and in future i will add some more features.
 
 ## Show some :heart: and star the repo to support the project.
 
