@@ -31,23 +31,23 @@ This repository is still under development and in feature i will add some more f
   
   <p>
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546709-22a4d800-960a-11eb-8662-a3be3213b135.jpg" alt="feed example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546709-22a4d800-960a-11eb-8662-a3be3213b135.jpg" alt="feed example" width = "200" >
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546850-70214500-960a-11eb-8b94-ffe057361246.jpg" alt="comment example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546850-70214500-960a-11eb-8b94-ffe057361246.jpg" alt="comment example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546911-8d561380-960a-11eb-9385-1f8bd60c0636.jpg" alt="search example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546911-8d561380-960a-11eb-9385-1f8bd60c0636.jpg" alt="search example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546940-9f37b680-960a-11eb-8c62-cffc448c7770.jpg" alt="search user profile example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546940-9f37b680-960a-11eb-8c62-cffc448c7770.jpg" alt="search user profile example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546970-b080c300-960a-11eb-9205-60d8f25bb843.jpg" alt="upload post example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546970-b080c300-960a-11eb-9205-60d8f25bb843.jpg" alt="upload post example" width = "200">
   
-  <img src="  https://user-images.githubusercontent.com/81458873/113549406-fd669880-960e-11eb-9fbf-621bc70f727a.jpg" alt="upload post example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113549659-6a7a2e00-960f-11eb-9cfd-b9ba360a5c97.jpg" alt="post hashtag example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113546990-ba0a2b00-960a-11eb-934e-010b7a7f9155.jpg" alt="notification example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113546990-ba0a2b00-960a-11eb-934e-010b7a7f9155.jpg" alt="notification example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113547022-c68e8380-960a-11eb-8f35-12bad6128f2b.jpg" alt="profile example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113547022-c68e8380-960a-11eb-8f35-12bad6128f2b.jpg" alt="profile example" width = "200">
   
-  <img src="https://user-images.githubusercontent.com/81458873/113547046-d017eb80-960a-11eb-947d-fb3365639e62.jpg" alt="edit profile example" width = "400">
+  <img src="https://user-images.githubusercontent.com/81458873/113547046-d017eb80-960a-11eb-947d-fb3365639e62.jpg" alt="edit profile example" width = "200">
   
   </p>
   
