@@ -6,7 +6,8 @@
 
 ## Show some :heart: and star the repo to support the project.
 
-## Download for android <a href="https://github.com/Sagarbisht509/Instagram_clone/releases/download/v1.0/Instagram.Clone.apk"> <img src="https://user-images.githubusercontent.com/81458873/114413763-e6561680-9bcb-11eb-9d41-64c9d1414c90.png" width="32%" /></a>
+## Download for android 
+   <a href="https://github.com/Sagarbisht509/Instagram_clone/releases/download/v1.0/Instagram.Clone.apk"><img src="https://user-images.githubusercontent.com/81458873/114413763-e6561680-9bcb-11eb-9d41-64c9d1414c90.png" width="32%" /></a>
 
 ## Features
 
