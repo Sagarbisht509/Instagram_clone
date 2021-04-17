@@ -6,6 +6,8 @@
 
 ## Show some :heart: and star the repo to support the project.
 
+## Download for android <a href="https://github.com/Sagarbisht509/Instagram_clone/releases/v1.0/Instagram.Clone.apk">Click here</a>
+
 ## Features
 
  * Custon posts feed based on whome you follow.
